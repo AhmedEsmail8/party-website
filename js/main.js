@@ -77,5 +77,5 @@ $('#message').on('input', function(e){
 $('.link').on('click', function(){
     slide(1);
     let secTop = $(this.Attr('href').offsetTop())
-    $('html, body').animate({scrollTop: secTop}, 500)
+    $('html, body').animate({scrollTop: secTop}, 1000)
 })
